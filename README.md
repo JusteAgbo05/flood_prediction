@@ -66,9 +66,9 @@ flood-prediction-ama/
 
 | Modèle | R² Test | MAE | RMSE | Temps |
 |---|---|---|---|---|
-| **Ridge (L2)**  | **0.8449** | **0.0158** | **0.0201** | 0.6s |
-| **Lasso (L1)** | **0.8449** | **0.0158** | **0.0201** | 0.6s |
-| Gradient Boosting | 0.6832 | 0.0236 | 0.0287 | 234s |
+| **Ridge (L2)**  | **0.8449** | **0.0158** | **0.0201** | 0.31s |
+| **Lasso (L1)** | **0.8449** | **0.0158** | **0.0201** | 0.29s |
+| Gradient Boosting | 0.6832 | 0.0236 | 0.0287 | 224s |
 
 > **Meilleur modèle : Ridge Regression** avec un R² de 0.8449 — 98.4% des prédictions ont une erreur < 0.05
 
